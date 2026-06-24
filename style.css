@@ -86,8 +86,8 @@ margin-bottom:20px;
 }
 
 h1{
-font-family:'Cinzel',serif;
-font-size:3rem;
+font-family:'Alex Brush', cursive;
+font-size:32px;
 color:var(--gold);
 
 text-shadow:
@@ -107,7 +107,7 @@ letter-spacing:2px;
 .heart{
 font-size:30px;
 margin:15px 0;
-color:var(--gold-soft);
+color:#ffffff;
 }
 
 .guest-title{
@@ -264,7 +264,9 @@ transform:translateY(0);
 @media(max-width:768px){
 
 h1{
-font-size:2rem;
+font-size:32px;
+font-weight:700;
+line-height:1.2;
 }
 
 h2{
@@ -340,7 +342,7 @@ margin:20px 0;
 
 .heart{
 font-size:34px;
-color:var(--gold-soft);
+color:#ffffff;
 animation:pulse 2s infinite;
 }
 
