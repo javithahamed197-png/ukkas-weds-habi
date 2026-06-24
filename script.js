@@ -1,11 +1,3 @@
-// Guest Name from URL
-const params = new URLSearchParams(window.location.search);
-const guest = params.get("guest");
-
-if (guest) {
-    document.getElementById("guestName").innerText = decodeURIComponent(guest);
-}
-
 // Countdown
 const weddingDate = new Date("August 3, 2026 11:00:00").getTime();
 
